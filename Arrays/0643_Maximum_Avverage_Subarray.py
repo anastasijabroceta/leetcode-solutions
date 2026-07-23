@@ -4,7 +4,8 @@ class Solution:
         current_sum = max_sum
 
         for i in range(k, len(nums)):
-            current_sum += nums[i] - nums[i - k]'''-outcoming num + incoming num'''
+            current_sum += nums[i] - nums[i - k]
+            '''-outcoming num + incoming num'''
             max_sum = max(max_sum, current_sum)
 
         return max_sum / k
