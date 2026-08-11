@@ -16,6 +16,7 @@ class Solution:
         if total<0:
             return -1
         return start
+
 if __name__=="__main__":
     nums=[1,2,3,4,5]
     cost = [3, 4, 5, 1, 2]
